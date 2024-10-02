@@ -114,7 +114,7 @@ $\frac{\frac{n^{4}}{81} - 1}{-\frac{80}{81}}$
 
 Now we factor back in our coeffiecient $n^{5}$
 
-$\frac{\frac{n}{81} - n^{5}}{\frac{80}{81}}$
+$\frac{\frac{n}{81} - n^{5}}{-\frac{80}{81}}$
 
 With this we now have 
 
