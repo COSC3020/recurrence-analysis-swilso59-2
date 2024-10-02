@@ -118,10 +118,20 @@ $\frac{\frac{n}{81} - n^{5}}{\frac{80}{81}}$
 
 With this we now have 
 
-$T(n) = n +
+$T(n) = n + \frac{\frac{n}{81} -n^{5}}{-\frac{80}{81}}$
+
+With this we can see that as $n$ grows to infinity $n^{5}$ is the dominant term 
+Giveing us the asymptotic complexity of $T(n) \in O(n^{5})$
+
+I recalled much of this problem from having previously worked on it. I remember spending a fair amount of time on it. There were still a few sections I stumbled with. Analyzing the mystery function came pretty easily. I knew I had to find the pattern and use the geometric series to solve the recurrence relation. The area that gave me a lot a trouble was the the recursive section, finding and placing the proper value in correct set of parentheses. I think the way I wrote my answer out this time is much more clear. I did take a look at my previous repository. Mostly to check work and find the formula for the geometric series.  
+
+https://github.com/COSC3020/recurrence-analysis-swilso59-1
 
 
-
+“I certify that I have listed all sources used to complete this exercise, including the use
+of any Large Language Models. All of the work is my own, except where stated
+otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is
+suspected, charges may be filed against me without prior notice.”
 
 
 
