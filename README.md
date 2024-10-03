@@ -45,9 +45,10 @@ There is also a triple nested for loop which is executed.
 The total number of run for the loops is $n^{5}$
 
 Now we can See that the the recurrance relation of the mystery funtion is
-- $T(n) = 3T\left(\frac{n}{3}\right) + (n^{5})$
 
-Now we can use the recurence relation to find the asymtotic time complexity.
+$T(n) = 3T\left(\frac{n}{3}\right) + (n^{5})$
+
+We can use the recurence relation to find the asymtotic time complexity.
    
 $T(n) = 3T\left(\frac{n}{3}\right) + (n^{5})$
 
